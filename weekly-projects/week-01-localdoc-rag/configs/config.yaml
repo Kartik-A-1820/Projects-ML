@@ -1,0 +1,9 @@
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+generator_model: Qwen/Qwen2.5-1.5B-Instruct
+device: auto
+chunk_size_words: 180
+chunk_overlap_words: 30
+dense_top_k: 6
+bm25_top_k: 6
+final_top_k: 5
+max_new_tokens: 220
