@@ -1,11 +1,11 @@
 # Weekly AI/ML Portfolio Migration Ledger
 
-Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/artifact checks succeeded. External destinations are only marked complete after read-back/verification.
+Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/artifact checks succeeded. External destinations are only marked complete after read-back/verification. `⚠ Tool unavailable` means the artifact is ready but this automation runtime does not expose a File Library mutation action; do not rebuild the project solely for that status.
 
 | Week | Project | Source | Verified | GitHub | Drive | Library |
 |---:|---|---|---|---|---|---|
-| 01 | LocalDoc-RAG | Rebuilt 2026 | ✅ | ✅ | ⏳ | ⏳ |
-| 02 | SmartResume-NLP | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 01 | LocalDoc-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
+| 02 | SmartResume-NLP | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
 | 03 | VisionTrack-AI | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 04 | TransformerSentiment-Lab | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 05 | SemanticSearch-Engine | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
