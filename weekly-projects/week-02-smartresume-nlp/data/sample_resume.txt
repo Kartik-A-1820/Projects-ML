@@ -1,0 +1,1 @@
+AI/ML Engineer with experience building Python machine learning systems, FastAPI services, retrieval augmented generation, NLP pipelines, computer vision, Docker deployments and model evaluation. Worked with scikit-learn, PyTorch, transformers, vector databases, MLflow and SQL.

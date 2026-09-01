@@ -1,0 +1,11 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "3 passed in 1.16s",
+  "smoke_exit": 0,
+  "smoke_stdout": "overall_score=0.5104; lexical_score=0.2851; skill_score=0.7857; missing_skills=distributed_systems,kubernetes,observability",
+  "zip_integrity": true,
+  "zip_bytes": 10018
+}
