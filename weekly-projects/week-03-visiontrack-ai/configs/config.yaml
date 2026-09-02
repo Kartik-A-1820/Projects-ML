@@ -1,0 +1,9 @@
+detector:
+  model: yolo26n.pt
+  confidence: 0.25
+tracker:
+  iou_threshold: 0.20
+  max_missed: 8
+  history_size: 30
+analytics:
+  line: [0, 300, 1280, 300]

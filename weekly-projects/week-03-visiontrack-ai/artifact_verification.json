@@ -1,0 +1,10 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests": "...                                                                      [100%]\n3 passed in 0.03s",
+  "smoke": "0 [(1, (20.0, 30.0))] []\n1 [(1, (20.0, 45.0))] []\n2 [(1, (20.0, 55.0))] [{'track_id': 1, 'label': 'car', 'direction': 'A_TO_B', 'frame_index': 2}]\ncounts= {'car:A_TO_B': 1}",
+  "zip_integrity": true,
+  "zip_file_count": 19,
+  "zip_bytes": 9844
+}

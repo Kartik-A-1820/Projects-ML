@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.cache/
+weights/
+models/
+artifacts/*.jsonl
+artifacts/*.mp4
+*.pt
+*.onnx
