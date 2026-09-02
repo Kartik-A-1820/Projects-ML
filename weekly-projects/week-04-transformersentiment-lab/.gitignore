@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.cache/
+checkpoints/
+models/
+artifacts/*.json
+artifacts/*.npy

@@ -1,0 +1,10 @@
+dataset: tweet_eval
+subset: sentiment
+model_name: microsoft/deberta-v3-small
+max_length: 128
+epochs: 2
+learning_rate: 0.00002
+train_batch_size: 4
+eval_batch_size: 8
+gradient_accumulation_steps: 4
+seed: 42

@@ -1,0 +1,10 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests": "...                                                                      [100%]\n3 passed in 0.03s",
+  "smoke": "temperature= 0.5\nece= 0.0297",
+  "zip_integrity": true,
+  "zip_file_count": 22,
+  "zip_bytes": 12205
+}

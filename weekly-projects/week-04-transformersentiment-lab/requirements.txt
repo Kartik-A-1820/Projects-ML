@@ -1,0 +1,9 @@
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+PyYAML>=6,<7
+pytest>=8,<9
+datasets>=3,<5
+transformers>=4.46,<6
+accelerate>=1,<2
+torch>=2.3
+sentencepiece>=0.2
