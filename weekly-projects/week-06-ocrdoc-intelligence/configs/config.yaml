@@ -1,0 +1,6 @@
+backend: text
+minimum_text_chars_for_native_pdf: 40
+invoice:
+  currency: INR
+  require_invoice_number: true
+  require_total: true

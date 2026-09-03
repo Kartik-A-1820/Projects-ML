@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.cache/
+models/
+artifacts/*.json
+artifacts/*.md
+artifacts/*.png
+*.db
+*.sqlite*

@@ -1,0 +1,16 @@
+ACME INDUSTRIAL COMPONENTS
+Invoice No: INV-2026-1042
+Invoice Date: 2026-08-28
+Purchase Order: PO-88192
+Vendor GSTIN: 29ABCDE1234F1Z5
+
+Bill To:
+Example Manufacturing Pvt Ltd
+
+ITEM | QTY | UNIT PRICE | AMOUNT
+Bearing Assembly | 2 | 1250.00 | 2500.00
+Seal Kit | 3 | 350.00 | 1050.00
+
+Subtotal: 3550.00
+Tax: 639.00
+Total: INR 4189.00
