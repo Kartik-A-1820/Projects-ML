@@ -1,0 +1,8 @@
+[
+  {"id":"doc-001","title":"Payment timeout E104","text":"Error code E104 indicates a payment gateway timeout. Retry with idempotency key and inspect upstream latency.","domain":"fintech"},
+  {"id":"doc-002","title":"Card authorization decline","text":"Card authorization can fail because of issuer decline, insufficient funds, fraud checks, or invalid card state.","domain":"fintech"},
+  {"id":"doc-003","title":"Embedding search","text":"Dense embeddings help retrieve semantically similar passages even when query wording differs from the indexed text.","domain":"search"},
+  {"id":"doc-004","title":"BM25 exact matching","text":"BM25 is useful for rare terms, product identifiers, error codes, names, and exact lexical evidence.","domain":"search"},
+  {"id":"doc-005","title":"Hybrid retrieval","text":"Hybrid retrieval combines lexical and semantic candidate sets. Reciprocal Rank Fusion can merge rankings without calibrating incompatible score scales.","domain":"search"},
+  {"id":"doc-006","title":"Cross encoder reranking","text":"A cross encoder jointly scores a query and candidate document and is typically more accurate but more expensive than bi-encoder retrieval.","domain":"search"}
+]

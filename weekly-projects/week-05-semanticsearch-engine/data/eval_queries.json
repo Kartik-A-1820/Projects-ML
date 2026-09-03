@@ -1,0 +1,6 @@
+[
+  {"query":"payment gateway timeout E104","relevant":["doc-001"]},
+  {"query":"find exact rare error identifiers","relevant":["doc-004","doc-001"]},
+  {"query":"combine keyword and semantic retrieval","relevant":["doc-005"]},
+  {"query":"accurate second stage ranking model","relevant":["doc-006"]}
+]

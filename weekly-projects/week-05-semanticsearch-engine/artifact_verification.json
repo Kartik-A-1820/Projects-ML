@@ -1,0 +1,12 @@
+{
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "3 passed in 0.17s",
+  "smoke_exit": 0,
+  "smoke_stdout": "4 evaluation queries passed; mean_ndcg@5=1.0",
+  "required_files_nonempty": true,
+  "missing_required": [],
+  "zip_integrity": true,
+  "repository_cache_removed": true
+}

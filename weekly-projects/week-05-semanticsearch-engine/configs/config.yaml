@@ -1,0 +1,13 @@
+retrieval:
+  lexical_top_k: 20
+  dense_top_k: 20
+  fused_top_k: 10
+  rrf_k: 60
+dense:
+  enabled: false
+  model: sentence-transformers/all-MiniLM-L6-v2
+  device: cpu
+reranker:
+  enabled: false
+  model: cross-encoder/ms-marco-MiniLM-L-6-v2
+  top_k: 5
