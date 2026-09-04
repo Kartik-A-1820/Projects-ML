@@ -1,0 +1,10 @@
+PyYAML>=6,<7
+pytest>=8,<9
+# Optional training stack:
+transformers>=4.46,<6
+peft>=0.13,<1
+trl>=0.12,<1
+datasets>=3,<5
+accelerate>=1,<2
+torch>=2.3
+bitsandbytes>=0.44; platform_system != "Darwin"

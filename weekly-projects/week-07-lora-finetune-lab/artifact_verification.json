@@ -1,0 +1,13 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "...                                                                      [100%]\n3 passed in 0.03s",
+  "smoke_exit": 0,
+  "smoke_stdout": "{'rows': 4, 'duplicate_outputs': 0, 'avg_output_chars': 55.25}\n{'count': 2, 'accuracy': 1.0}",
+  "required_files_nonempty": true,
+  "zip_integrity": true,
+  "zip_file_count": 19,
+  "zip_bytes": 10702
+}

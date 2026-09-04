@@ -1,0 +1,2 @@
+{"instruction":"Extract the primary intent.","input":"My card is blocked after three PIN attempts.","output":"card_unblock"}
+{"instruction":"Return a JSON object with severity and action.","input":"Database replicas are unavailable in two zones.","output":"{\"severity\":\"critical\",\"action\":\"failover_and_restore_replication\"}"}

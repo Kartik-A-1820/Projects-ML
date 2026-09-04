@@ -1,0 +1,4 @@
+{"instruction":"Convert the request into a concise tool plan.","input":"Find invoices over 5000 INR and summarize vendors.","output":"1. search_invoices(min_total=5000) 2. group_by_vendor() 3. summarize()"}
+{"instruction":"Return a JSON object with severity and action.","input":"GPU memory utilization is 99% and requests are timing out.","output":"{\"severity\":\"high\",\"action\":\"reduce_concurrency_and_scale_inference\"}"}
+{"instruction":"Extract the primary intent.","input":"I need to reset my password but MFA is blocking me.","output":"account_recovery"}
+{"instruction":"Convert the request into a concise tool plan.","input":"List failed deployments from today and group by service.","output":"1. list_deployments(status=failed,date=today) 2. group_by(service)"}

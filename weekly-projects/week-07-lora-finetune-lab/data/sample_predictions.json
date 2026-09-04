@@ -1,0 +1,10 @@
+[
+  {
+    "expected": "card_unblock",
+    "predicted": "card_unblock"
+  },
+  {
+    "expected": "{\"severity\":\"critical\",\"action\":\"failover_and_restore_replication\"}",
+    "predicted": "{\"action\":\"failover_and_restore_replication\",\"severity\":\"critical\"}"
+  }
+]
