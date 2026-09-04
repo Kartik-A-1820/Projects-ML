@@ -1,6 +1,6 @@
 # Weekly AI/ML Portfolio Migration Ledger
 
-Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/artifact checks succeeded. External destinations are only marked complete after read-back/verification. `⚠ Tool unavailable` means the artifact is ready but this automation runtime does not expose a File Library mutation action; do not rebuild the project solely for that status.
+Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/artifact checks succeeded. External destinations are only marked complete after read-back/verification. `⚠ Tool unavailable` means the artifact is ready but this automation runtime cannot complete that Library persistence path; do not rebuild the project solely for that status.
 
 | Week | Project | Source | Verified | GitHub | Drive | Library |
 |---:|---|---|---|---|---|---|
@@ -10,8 +10,8 @@ Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/art
 | 04 | TransformerSentiment-Lab | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
 | 05 | SemanticSearch-Engine | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
 | 06 | OCRDoc-Intelligence | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
-| 07 | LoRA-FineTune-Lab | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
-| 08 | MultiPDF-RAG | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 07 | LoRA-FineTune-Lab | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 08 | MultiPDF-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 09 | VisionSearch-CLIP | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 10 | AgenticRAG-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 11 | NLPIntent-Engine | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
