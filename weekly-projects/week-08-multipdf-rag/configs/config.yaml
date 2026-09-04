@@ -1,0 +1,8 @@
+chunk_words: 120
+chunk_overlap: 25
+lexical_top_k: 8
+dense_top_k: 8
+fused_top_k: 5
+rrf_k: 60
+dense_enabled: false
+reranker_enabled: false

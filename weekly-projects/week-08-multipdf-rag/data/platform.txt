@@ -1,0 +1,5 @@
+[PAGE 1]
+Platform Operations Guide. Production model deployments use canary rollout. New versions begin at five percent traffic, then expand only after latency, error-rate and quality gates pass.
+
+[PAGE 2]
+Rollback restores the previous immutable model and configuration bundle. Deployment metadata includes model checksum, dataset version and evaluation report ID.

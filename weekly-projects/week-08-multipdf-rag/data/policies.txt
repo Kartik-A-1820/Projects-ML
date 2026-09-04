@@ -1,0 +1,5 @@
+[PAGE 1]
+Security Policy Handbook. Policy AC-17 requires privileged administrator sessions to use phishing-resistant multi-factor authentication and records all privileged access for audit.
+
+[PAGE 2]
+Policy IR-08 requires critical incidents to be acknowledged within fifteen minutes and escalated to the incident commander when customer impact is confirmed.

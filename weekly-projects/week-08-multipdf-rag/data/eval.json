@@ -1,0 +1,5 @@
+[
+ {"query":"What does AC-17 require for administrator sessions?","relevant":["policies.txt:p1:c0"]},
+ {"query":"How quickly must critical incidents be acknowledged?","relevant":["policies.txt:p2:c0"]},
+ {"query":"What traffic percentage starts a production model canary?","relevant":["platform.txt:p1:c0"]}
+]
