@@ -1,0 +1,12 @@
+{
+  "project":"DS Week 01 — Calibrated Credit Risk Under Shift",
+  "notebook_json_valid":true,
+  "required_sections_present":true,
+  "notebook_execution_mode":"offline deterministic synthetic smoke",
+  "notebook_execution_exit":0,
+  "pytest":"4 passed",
+  "smoke_roc_auc":0.7105,
+  "real_uci_dataset_executed":false,
+  "real_dataset_reason":"Current container runtime had no outbound dataset network access; full UCI loader is included.",
+  "zip_integrity":true
+}

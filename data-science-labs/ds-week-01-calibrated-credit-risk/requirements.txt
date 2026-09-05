@@ -1,0 +1,11 @@
+numpy>=1.26,<3
+pandas>=2.1,<3
+scikit-learn>=1.5,<2
+matplotlib>=3.8,<4
+nbformat>=5.9,<6
+nbconvert>=7.16,<8
+jupyter>=1.0,<2
+ucimlrepo>=0.0.7,<1
+pytest>=8,<9
+# Optional full-dataset benchmark:
+# catboost>=1.2,<2

@@ -1,0 +1,1 @@
+{"execution_mode":"offline deterministic synthetic smoke","tests":"4 passed","smoke_roc_auc":0.7105,"note":"Synthetic results validate implementation only; use the real UCI dataset for portfolio claims."}
