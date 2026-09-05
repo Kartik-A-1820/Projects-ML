@@ -1,0 +1,13 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "3 passed in 0.04s",
+  "smoke_exit": 0,
+  "smoke_stdout": "error 104 keeps happening => grounded ['d1'] steps 2\nwhat does out of memory pod mean => grounded ['d2'] steps 2\nquantum banana protocol => abstain [] steps 3",
+  "zip_integrity": true,
+  "zip_file_count": 16,
+  "zip_bytes": 8925,
+  "required_files_nonempty": true
+}
