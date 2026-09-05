@@ -1,0 +1,6 @@
+[
+ {"id":"d1","title":"Payment E104","text":"E104 is a payment gateway timeout. Retry idempotently and inspect upstream latency."},
+ {"id":"d2","title":"Kubernetes OOMKilled","text":"OOMKilled means a container exceeded its memory limit. Inspect requests, limits and runtime memory."},
+ {"id":"d3","title":"RAG evaluation","text":"Retrieval quality should be measured with Recall, MRR or nDCG before generation quality is assessed."},
+ {"id":"d4","title":"Vector index drift","text":"Embedding model changes require index versioning and re-embedding because vector spaces are not interchangeable."}
+]
