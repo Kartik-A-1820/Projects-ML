@@ -12,8 +12,8 @@ Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/art
 | 06 | OCRDoc-Intelligence | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
 | 07 | LoRA-FineTune-Lab | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 08 | MultiPDF-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 09 | VisionSearch-CLIP | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
-| 10 | AgenticRAG-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 09 | VisionSearch-CLIP | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 10 | AgenticRAG-Local | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 11 | NLPIntent-Engine | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 12 | ModelExplain-ML | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 13 | VideoRAG-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
