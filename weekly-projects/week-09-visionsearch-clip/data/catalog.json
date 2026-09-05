@@ -1,0 +1,7 @@
+[
+  {"id":"img-001","caption":"red industrial truck on a highway","category":"vehicle","path":"data/red_truck.jpg"},
+  {"id":"img-002","caption":"blue passenger car parked outdoors","category":"vehicle","path":"data/blue_car.jpg"},
+  {"id":"img-003","caption":"technician inspecting machinery in factory","category":"industrial","path":"data/factory.jpg"},
+  {"id":"img-004","caption":"invoice document with table and totals","category":"document","path":"data/invoice.jpg"},
+  {"id":"img-005","caption":"green agricultural tractor in a field","category":"vehicle","path":"data/tractor.jpg"}
+]
