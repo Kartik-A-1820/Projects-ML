@@ -1,0 +1,7 @@
+model:
+  backend: deterministic
+  model_name: google/siglip2-base-patch16-224
+  device: cpu
+index:
+  top_k: 5
+  normalize: true
