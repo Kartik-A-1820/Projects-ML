@@ -1,0 +1,13 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "3 passed in 0.08s",
+  "smoke_exit": 0,
+  "smoke_stdout": "img-001 0.4714 red industrial truck on a highway\nimg-003 0.2582 technician inspecting machinery in factory\nimg-002 0.0 blue passenger car parked outdoors",
+  "zip_integrity": true,
+  "zip_file_count": 16,
+  "zip_bytes": 8032,
+  "required_files_nonempty": true
+}
