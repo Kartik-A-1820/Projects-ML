@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+Pillow>=10,<12
+PyYAML>=6,<7
+pytest>=8,<9
+# Optional real encoder:
+# torch>=2.3
+# transformers>=4.49,<6
