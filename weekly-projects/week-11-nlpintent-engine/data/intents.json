@@ -1,0 +1,17 @@
+[
+  {"text":"my payment failed","intent":"payment_failed"},
+  {"text":"card payment was declined","intent":"payment_failed"},
+  {"text":"transaction did not go through","intent":"payment_failed"},
+  {"text":"where is my refund","intent":"refund_status"},
+  {"text":"refund has not arrived","intent":"refund_status"},
+  {"text":"check refund progress","intent":"refund_status"},
+  {"text":"I forgot my password","intent":"password_reset"},
+  {"text":"reset my account password","intent":"password_reset"},
+  {"text":"cannot login because password is wrong","intent":"password_reset"},
+  {"text":"track my order","intent":"order_tracking"},
+  {"text":"where is my package","intent":"order_tracking"},
+  {"text":"shipment status please","intent":"order_tracking"},
+  {"text":"cancel my subscription","intent":"subscription_cancel"},
+  {"text":"stop recurring plan","intent":"subscription_cancel"},
+  {"text":"terminate my membership","intent":"subscription_cancel"}
+]

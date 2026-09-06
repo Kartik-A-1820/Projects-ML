@@ -1,0 +1,13 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "4 passed in 0.87s",
+  "smoke_exit": 0,
+  "smoke_summary": "accuracy=0.8571; macro_f1=0.8000 on local fixture; OOS routing active",
+  "required_files_nonempty": true,
+  "missing_required": [],
+  "zip_integrity": true,
+  "zip_file_count": 18
+}

@@ -1,0 +1,8 @@
+model:
+  max_features: 12000
+  ngram_min: 1
+  ngram_max: 2
+  class_weight: balanced
+routing:
+  oos_threshold: 0.50
+  ambiguity_margin: 0.08

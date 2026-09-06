@@ -1,0 +1,9 @@
+[
+  {"text":"why was my card transaction rejected","intent":"payment_failed"},
+  {"text":"when will the refund reach me","intent":"refund_status"},
+  {"text":"help me change forgotten password","intent":"password_reset"},
+  {"text":"show delivery status","intent":"order_tracking"},
+  {"text":"please end my monthly plan","intent":"subscription_cancel"},
+  {"text":"what is the weather tomorrow","intent":"out_of_scope"},
+  {"text":"write python code for a game","intent":"out_of_scope"}
+]
