@@ -14,8 +14,8 @@ Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/art
 | 08 | MultiPDF-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 09 | VisionSearch-CLIP | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 10 | AgenticRAG-Local | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 11 | NLPIntent-Engine | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
-| 12 | ModelExplain-ML | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 11 | NLPIntent-Engine | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 12 | ModelExplain-ML | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 13 | VideoRAG-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 14 | CodePilot-Mini | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 15 | FederatedLLM-Lite | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
