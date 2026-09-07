@@ -1,0 +1,7 @@
+[
+  {"query":"what safety step happens before the cabinet is opened","relevant":["e2"]},
+  {"query":"which connector was loose and what torque is shown","relevant":["e3"]},
+  {"query":"what visual evidence shows the fault was cleared","relevant":["e4"]},
+  {"query":"what happens after the J14 terminal repair","relevant":["e4","e5"]},
+  {"query":"how was the final motor test validated","relevant":["e5"]}
+]

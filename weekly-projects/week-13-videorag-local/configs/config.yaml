@@ -1,0 +1,19 @@
+retrieval:
+  modality_top_k: 6
+  final_top_k: 5
+  rrf_k: 60
+  temporal_neighbor_seconds: 25
+  evidence_budget_chars: 3500
+weights:
+  default:
+    transcript: 1.0
+    ocr: 0.8
+    visual: 0.8
+  text_query:
+    transcript: 1.2
+    ocr: 1.0
+    visual: 0.6
+  visual_query:
+    transcript: 0.7
+    ocr: 0.7
+    visual: 1.3

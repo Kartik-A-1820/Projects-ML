@@ -1,0 +1,8 @@
+[
+  {"event_id":"e1","start":0,"end":20,"transcript":"The technician introduces the motor controller inspection procedure.","ocr":"MOTOR CONTROLLER INSPECTION","visual":"technician standing beside an industrial motor controller cabinet","links":["e2"]},
+  {"event_id":"e2","start":20,"end":45,"transcript":"First isolate the main power and verify zero voltage before opening the cabinet.","ocr":"LOCKOUT TAGOUT - VERIFY 0V","visual":"gloved technician using a voltage meter near a locked electrical cabinet","links":["e1","e3"]},
+  {"event_id":"e3","start":45,"end":75,"transcript":"The technician finds a loose terminal on connector J14 and tightens it to specification.","ocr":"J14 TORQUE 2.5 Nm","visual":"close-up of connector J14 and torque driver","links":["e2","e4"]},
+  {"event_id":"e4","start":75,"end":110,"transcript":"After repair the controller is powered and the status LED changes from red fault to green ready.","ocr":"FAULT -> READY","visual":"controller status LED changes from red to green after power restoration","links":["e3","e5"]},
+  {"event_id":"e5","start":110,"end":145,"transcript":"The final test runs the motor at low speed and confirms stable current with no fault codes.","ocr":"TEST PASS 12.4 A","visual":"motor spinning during test while current value is displayed","links":["e4"]},
+  {"event_id":"e6","start":145,"end":175,"transcript":"The presenter summarizes documentation and closes the maintenance ticket.","ocr":"WORK ORDER CLOSED","visual":"technician entering maintenance notes on a tablet","links":[]}
+]
