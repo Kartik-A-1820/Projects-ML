@@ -1,0 +1,6 @@
+PyYAML>=6,<7
+pytest>=8,<9
+# Optional semantic/local-coder mode:
+# sentence-transformers>=3,<6
+# transformers>=4.49,<6
+# torch>=2.3

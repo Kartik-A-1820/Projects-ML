@@ -1,0 +1,5 @@
+[
+  {"issue":"discount larger than subtotal can create a negative order total; clamp total at zero and add a regression test","relevant":["orders/pricing.py","tests/test_pricing.py"]},
+  {"issue":"tax calculation is defined in pricing module","relevant":["orders/pricing.py"]},
+  {"issue":"checkout imports pricing functions and returns total plus tax","relevant":["orders/service.py"]}
+]

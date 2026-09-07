@@ -1,0 +1,9 @@
+repository:
+  max_file_bytes: 250000
+  include_extensions: [".py", ".md", ".yaml", ".yml", ".toml", ".json"]
+retrieval:
+  top_k: 5
+  context_budget_chars: 9000
+validation:
+  test_timeout_seconds: 30
+  allowed_test_prefixes: ["python -m pytest", "pytest"]
