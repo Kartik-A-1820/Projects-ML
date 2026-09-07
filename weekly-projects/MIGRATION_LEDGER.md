@@ -6,7 +6,7 @@ Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/art
 |---:|---|---|---|---|---|---|
 | 01 | LocalDoc-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
 | 02 | SmartResume-NLP | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 03 | VisionTrack-AI | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
+| 03 | VisionTrack-AI | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 04 | TransformerSentiment-Lab | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
 | 05 | SemanticSearch-Engine | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
 | 06 | OCRDoc-Intelligence | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
