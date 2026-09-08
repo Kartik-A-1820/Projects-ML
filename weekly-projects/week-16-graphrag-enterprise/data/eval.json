@@ -1,0 +1,5 @@
+[
+  {"query":"what database stores Atlas transactional metadata","relevant_docs":["d1"],"expected_route":"lexical"},
+  {"query":"which ERP receives Orion work orders","relevant_docs":["d2","d3"],"expected_route":"hybrid"},
+  {"query":"what infrastructure constraint applies to the plant that operates the service consuming Atlas results","relevant_docs":["d2","d4","d5"],"expected_route":"graph"}
+]

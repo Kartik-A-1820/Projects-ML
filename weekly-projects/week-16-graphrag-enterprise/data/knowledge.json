@@ -1,0 +1,19 @@
+{
+  "documents": [
+    {"id":"d1","text":"Project Atlas uses PostgreSQL for transactional metadata and Qdrant for semantic retrieval."},
+    {"id":"d2","text":"Service Orion consumes Atlas retrieval results and sends approved work orders to SAP S4."},
+    {"id":"d3","text":"SAP S4 is the ERP system of record for manufacturing work orders."},
+    {"id":"d4","text":"Plant Berlin operates Service Orion and must comply with EU data residency policy."},
+    {"id":"d5","text":"EU residency policy requires regulated production metadata to remain in EU-hosted infrastructure."}
+  ],
+  "triples": [
+    ["Project Atlas","uses","PostgreSQL"],
+    ["Project Atlas","uses","Qdrant"],
+    ["Service Orion","consumes","Project Atlas"],
+    ["Service Orion","sends_work_orders_to","SAP S4"],
+    ["SAP S4","system_of_record_for","manufacturing work orders"],
+    ["Plant Berlin","operates","Service Orion"],
+    ["Plant Berlin","governed_by","EU residency policy"],
+    ["EU residency policy","requires","EU-hosted infrastructure"]
+  ]
+}

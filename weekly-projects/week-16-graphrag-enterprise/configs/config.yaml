@@ -1,0 +1,8 @@
+routing:
+  graph_threshold: 0.62
+  hybrid_lower: 0.40
+retrieval:
+  lexical_top_k: 6
+  graph_hops: 2
+  final_top_k: 5
+  rrf_k: 60
