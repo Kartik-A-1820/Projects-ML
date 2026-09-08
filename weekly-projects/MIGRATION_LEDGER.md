@@ -1,6 +1,6 @@
 # Weekly AI/ML Portfolio Migration Ledger
 
-Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/artifact checks succeeded. External destinations are only marked complete after read-back/verification. `⚠ Tool unavailable` means the artifact is ready but this automation runtime cannot complete that Library persistence path; do not rebuild the project solely for that status.
+Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests/artifact checks succeeded. External destinations are only marked complete after read-back/verification. `⚠ Tool unavailable` means the artifact is ready but this automation runtime cannot complete that Library persistence path; do not rebuild the project solely for that status.
 
 | Week | Project | Source | Verified | GitHub | Drive | Library |
 |---:|---|---|---|---|---|---|
@@ -18,7 +18,7 @@ Legend: `Source` = Recovered or Rebuilt. `Verified` means local syntax/tests/art
 | 12 | ModelExplain-ML | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 13 | VideoRAG-Local | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 14 | CodePilot-Mini | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 15 | FederatedLLM-Lite | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 15 | FederatedLLM-Lite | New 2026 | ✅ | ✅ | ✅ | ✅ |
 | 16 | GraphRAG-Enterprise | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 17 | VisionAgent-Studio | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 18 | RAGGuard-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
