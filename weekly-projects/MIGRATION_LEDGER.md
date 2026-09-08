@@ -19,8 +19,8 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 13 | VideoRAG-Local | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 14 | CodePilot-Mini | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 15 | FederatedLLM-Lite | New 2026 | ✅ | ✅ | ✅ | ✅ |
-| 16 | GraphRAG-Enterprise | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
-| 17 | VisionAgent-Studio | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 16 | GraphRAG-Enterprise | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 17 | VisionAgent-Studio | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 18 | RAGGuard-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 19 | DataSynth-LLM | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 20 | ModelRouter-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |

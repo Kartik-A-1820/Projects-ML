@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.cache/
+artifacts/*.png
+artifacts/*.json
+models/
+*.pt
+*.safetensors

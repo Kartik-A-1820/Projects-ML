@@ -1,0 +1,4 @@
+[
+  {"scene_id":"s1","objects":[{"name":"red_circle","x":30,"y":40},{"name":"blue_square","x":70,"y":40}],"text":["ALERT 42"]},
+  {"scene_id":"s2","objects":[{"name":"green_triangle","x":50,"y":25},{"name":"red_circle","x":50,"y":75}],"text":["READY"]}
+]
