@@ -1,0 +1,16 @@
+{
+  "project": "Week 15 — FederatedLLM-Lite",
+  "source": "New weekly project 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "5 passed in 2.67s",
+  "smoke_exit": 0,
+  "smoke_summary": {"device":"cpu","rounds":2,"round_2_global_accuracy":0.5,"round_2_worst_client_accuracy":0.0,"communicated_bytes_per_round":7424,"trainable_adapter_parameters":464},
+  "required_files_nonempty": true,
+  "missing_required": [],
+  "zip_integrity": true,
+  "zip_file_count": 23,
+  "zip_bytes": 25131,
+  "zip_contains_required": true
+}

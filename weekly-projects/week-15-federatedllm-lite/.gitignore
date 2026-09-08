@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.cache/
+models/
+checkpoints/
+artifacts/*.pt
+artifacts/*.bin
+artifacts/*.safetensors
+artifacts/*.db
+artifacts/*.sqlite*
+*.gguf

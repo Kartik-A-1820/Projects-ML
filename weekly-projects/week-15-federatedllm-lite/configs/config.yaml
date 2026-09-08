@@ -1,0 +1,34 @@
+seed: 42
+device: auto
+
+data:
+  num_clients: 4
+  non_iid_alpha: 0.35
+  validation_fraction: 0.25
+
+model:
+  vocab_size: 512
+  embedding_dim: 48
+  hidden_dim: 32
+  num_classes: 4
+  lora_rank: 4
+  lora_alpha: 8.0
+
+training:
+  rounds: 3
+  local_epochs: 1
+  batch_size: 8
+  learning_rate: 0.03
+  weight_decay: 0.0001
+
+aggregation:
+  strategy: weighted_fedavg
+  secure_aggregation_simulation: true
+
+privacy:
+  enabled: true
+  max_update_norm: 1.0
+  noise_multiplier: 0.02
+
+evaluation:
+  report_worst_client: true
