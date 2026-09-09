@@ -1,0 +1,7 @@
+input:
+  block_threshold: 0.65
+retrieval:
+  min_trust_score: 0.45
+  quarantine_threshold: 0.75
+output:
+  block_secret_patterns: true
