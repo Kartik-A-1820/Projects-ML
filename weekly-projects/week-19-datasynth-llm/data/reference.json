@@ -1,0 +1,10 @@
+[
+  {"text":"card payment was declined at checkout","label":"payment"},
+  {"text":"the payment authorization failed","label":"payment"},
+  {"text":"refund has not reached my account","label":"refund"},
+  {"text":"when will my reimbursement arrive","label":"refund"},
+  {"text":"I forgot my account password","label":"account"},
+  {"text":"help me recover my login","label":"account"},
+  {"text":"where is my parcel","label":"shipping"},
+  {"text":"track the delayed shipment","label":"shipping"}
+]
