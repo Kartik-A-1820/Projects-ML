@@ -21,8 +21,8 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 15 | FederatedLLM-Lite | New 2026 | ✅ | ✅ | ✅ | ✅ |
 | 16 | GraphRAG-Enterprise | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 17 | VisionAgent-Studio | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 18 | RAGGuard-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
-| 19 | DataSynth-LLM | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 18 | RAGGuard-Local | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 19 | DataSynth-LLM | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 20 | ModelRouter-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 21 | HybridSearch-RAG | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 22 | LLMCache-Engine | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
