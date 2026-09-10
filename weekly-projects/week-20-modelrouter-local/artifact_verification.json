@@ -1,0 +1,12 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "..... [100%]\n5 passed in 0.70s",
+  "smoke_exit": 0,
+  "smoke_stdout": "mean_quality=0.9106; mean_cost=4.5; strong_call_rate=0.5; quality_regret_vs_oracle=0.0061",
+  "zip_integrity": true,
+  "zip_file_count": 17,
+  "required_files_nonempty": true
+}

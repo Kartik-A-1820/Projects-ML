@@ -1,0 +1,10 @@
+models:
+  small: {quality_prior: 0.64, cost_units: 1.0, p95_latency_ms: 180}
+  medium: {quality_prior: 0.79, cost_units: 2.7, p95_latency_ms: 420}
+  strong: {quality_prior: 0.91, cost_units: 8.0, p95_latency_ms: 1200}
+routing:
+  strong_gain_threshold: 0.16
+  medium_gain_threshold: 0.08
+  max_cost_units: 8.0
+  max_latency_ms: 1400
+  reliability_floor: 0.90
