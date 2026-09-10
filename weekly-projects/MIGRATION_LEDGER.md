@@ -23,8 +23,8 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 17 | VisionAgent-Studio | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 18 | RAGGuard-Local | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 19 | DataSynth-LLM | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 20 | ModelRouter-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
-| 21 | HybridSearch-RAG | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 20 | ModelRouter-Local | Rebuilt 2026 | ✅ | ✅ | ⏳ | ⏳ |
+| 21 | HybridSearch-RAG | Rebuilt 2026 | ✅ | ✅ | ⏳ | ⏳ |
 | 22 | LLMCache-Engine | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 23 | AutoLabel-NLP | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 24 | TinyLLM-FineTuner | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
