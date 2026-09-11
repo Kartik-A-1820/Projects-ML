@@ -1,0 +1,9 @@
+cache:
+  exact_ttl_seconds: 86400
+  semantic_ttl_seconds: 3600
+  hit_threshold: 0.78
+  verify_lower_bound: 0.60
+  max_entries: 10000
+freshness:
+  risk_per_hour: 0.01
+  max_stale_risk: 0.12

@@ -1,0 +1,8 @@
+[
+ {"a":"reset my password","b":"help me change a forgotten password","same":true},
+ {"a":"refund is missing","b":"reimbursement has not arrived","same":true},
+ {"a":"track my parcel","b":"where is my shipment","same":true},
+ {"a":"reset my password","b":"where is my shipment","same":false},
+ {"a":"GPU memory is full","b":"refund is missing","same":false},
+ {"a":"payment failed with E104","b":"error E104 payment timeout","same":true}
+]
