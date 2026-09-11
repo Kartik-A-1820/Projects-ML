@@ -1,0 +1,14 @@
+[
+ {"text":"card payment failed again","gold":"payment"},
+ {"text":"transaction was declined by merchant","gold":"payment"},
+ {"text":"refund has not arrived","gold":"refund"},
+ {"text":"reimbursement is still pending","gold":"refund"},
+ {"text":"forgot my password and cannot login","gold":"account"},
+ {"text":"unlock my user account","gold":"account"},
+ {"text":"where is my shipment","gold":"shipping"},
+ {"text":"package delivery is delayed","gold":"shipping"},
+ {"text":"merchant refund on card is missing","gold":"refund"},
+ {"text":"payment for package was declined","gold":"payment"},
+ {"text":"cannot access my profile","gold":"account"},
+ {"text":"courier tracking has not moved","gold":"shipping"}
+]
