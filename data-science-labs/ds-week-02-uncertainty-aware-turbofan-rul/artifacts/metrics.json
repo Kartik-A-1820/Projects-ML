@@ -1,0 +1,8 @@
+{
+  "data_mode": "SYNTHETIC_SMOKE",
+  "selected_model": "regime_aware_hgb",
+  "validation_interval": {"coverage": 0.7744897959183673, "mean_width": 30.173397725707943, "median_width": 23.278645281215706},
+  "test_metrics": {"rmse": 14.041319244972259, "mae": 9.921876316280251, "asymmetric_cost": 2.9198563768390193},
+  "health_threshold": 4.959372520446777,
+  "n_features": 79
+}

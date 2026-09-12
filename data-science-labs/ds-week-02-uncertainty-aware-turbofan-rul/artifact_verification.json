@@ -1,0 +1,13 @@
+{
+  "project": "DS Week 02 — Uncertainty-Aware Turbofan RUL Prognostics",
+  "notebook_structurally_valid": true,
+  "required_sections_present": true,
+  "notebook_execution": "SUCCESS_SYNTHETIC_SMOKE",
+  "real_nasa_dataset_executed": false,
+  "dataset_status": "NASA source documented; direct archive download unavailable in runtime; deterministic synthetic fallback executed.",
+  "python_compile_ok": true,
+  "pytest_exit": 0,
+  "pytest_stdout": "4 passed",
+  "required_files_nonempty": true,
+  "zip_integrity": true
+}
