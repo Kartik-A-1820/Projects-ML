@@ -7,9 +7,9 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 01 | LocalDoc-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
 | 02 | SmartResume-NLP | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 03 | VisionTrack-AI | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 04 | TransformerSentiment-Lab | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
-| 05 | SemanticSearch-Engine | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
-| 06 | OCRDoc-Intelligence | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
+| 04 | TransformerSentiment-Lab | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 05 | SemanticSearch-Engine | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 06 | OCRDoc-Intelligence | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 07 | LoRA-FineTune-Lab | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 08 | MultiPDF-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 09 | VisionSearch-CLIP | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
@@ -25,10 +25,10 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 19 | DataSynth-LLM | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 20 | ModelRouter-Local | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 21 | HybridSearch-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 22 | LLMCache-Engine | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
+| 22 | LLMCache-Engine | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 23 | AutoLabel-NLP | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 24 | TinyLLM-FineTuner | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
-| 25 | MultiAgent-Researcher | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 24 | TinyLLM-FineTuner | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 25 | MultiAgent-Researcher | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 26 | VisionRAG-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 27 | MLOps-ModelRegistry | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 28 | EdgeVision-Analytics | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
