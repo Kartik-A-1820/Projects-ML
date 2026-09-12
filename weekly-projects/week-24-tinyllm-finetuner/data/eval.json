@@ -1,0 +1,10 @@
+[
+{"text":"please change my forgotten password","label":0,"slice":"task"},
+{"text":"why was my purchase rejected","label":1,"slice":"task"},
+{"text":"when will reimbursement arrive","label":2,"slice":"task"},
+{"text":"show delivery progress","label":3,"slice":"task"},
+{"text":"account recovery help","label":0,"slice":"retention"},
+{"text":"payment problem","label":1,"slice":"retention"},
+{"text":"refund status","label":2,"slice":"retention"},
+{"text":"package location","label":3,"slice":"retention"}
+]

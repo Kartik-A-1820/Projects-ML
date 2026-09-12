@@ -1,0 +1,10 @@
+{
+  "source":"Rebuilt 2026",
+  "compile_ok":true,
+  "tests_exit":0,
+  "tests_stdout":"4 passed",
+  "smoke_exit":0,
+  "smoke_stdout":"multi-agent evidence coverage=1.0 on both tasks; single baseline coverage=0.667 and 0.5",
+  "required_files_nonempty":true,
+  "zip_integrity":true
+}

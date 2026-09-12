@@ -1,0 +1,14 @@
+{
+  "market":[
+    {"id":"m1","claim":"Small local models reduce inference cost and data exposure for narrow enterprise tasks.","topic":"economics"},
+    {"id":"m2","claim":"Model routing can reserve stronger models for high-marginal-gain requests.","topic":"economics"}
+  ],
+  "systems":[
+    {"id":"s1","claim":"PEFT reduces trainable parameter count and adapter storage compared with full fine-tuning.","topic":"systems"},
+    {"id":"s2","claim":"Quantization can reduce memory but requires task-specific regression testing.","topic":"systems"}
+  ],
+  "risk":[
+    {"id":"r1","claim":"Multi-agent systems require bounded communication and tool permissions to control coordination overhead.","topic":"risk"},
+    {"id":"r2","claim":"Private local data does not automatically make a model safe from memorization or leakage.","topic":"risk"}
+  ]
+}

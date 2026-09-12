@@ -1,0 +1,12 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "3 passed",
+  "smoke_exit": 0,
+  "smoke_stdout": "full task_accuracy=0.75 retention=1.0; lora task_accuracy=0.5 retention=0.25; masked_lora task_accuracy=0.75 retention=0.75",
+  "required_files_nonempty": true,
+  "missing_required": [],
+  "zip_integrity": true
+}

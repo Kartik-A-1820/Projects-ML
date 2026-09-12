@@ -1,0 +1,3 @@
+max_messages: 12
+max_evidence_per_agent: 3
+minimum_evidence_coverage: 0.66

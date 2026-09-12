@@ -1,0 +1,4 @@
+[
+  {"id":"t1","question":"Should a regulated enterprise prefer local small models for narrow AI workflows?","required_topics":["economics","systems","risk"]},
+  {"id":"t2","question":"What are the principal tradeoffs of PEFT plus quantized local inference?","required_topics":["systems","risk"]}
+]

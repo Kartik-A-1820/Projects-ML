@@ -1,0 +1,7 @@
+[
+{"text":"reset my password","label":0},{"text":"unlock account access","label":0},{"text":"recover my login","label":0},
+{"text":"card payment declined","label":1},{"text":"payment authorization failed","label":1},{"text":"transaction was rejected","label":1},
+{"text":"refund still pending","label":2},{"text":"reimbursement has not arrived","label":2},{"text":"where is my refund","label":2},
+{"text":"track my package","label":3},{"text":"shipment is delayed","label":3},{"text":"where is my parcel","label":3},
+{"text":"forgot credentials","label":0},{"text":"debit purchase failed","label":1},{"text":"returned money missing","label":2},{"text":"courier tracking status","label":3}
+]
