@@ -4,7 +4,7 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 
 | Week | Project | Source | Verified | GitHub | Drive | Library |
 |---:|---|---|---|---|---|---|
-| 01 | LocalDoc-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ⚠ Tool unavailable |
+| 01 | LocalDoc-RAG | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 02 | SmartResume-NLP | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 03 | VisionTrack-AI | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 04 | TransformerSentiment-Lab | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
