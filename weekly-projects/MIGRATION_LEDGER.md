@@ -29,8 +29,8 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 23 | AutoLabel-NLP | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 24 | TinyLLM-FineTuner | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 25 | MultiAgent-Researcher | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 26 | VisionRAG-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
-| 27 | MLOps-ModelRegistry | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 26 | VisionRAG-Local | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 27 | MLOps-ModelRegistry | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 28 | EdgeVision-Analytics | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 29 | DriftWatch-ML | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 30 | PromptShield-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
