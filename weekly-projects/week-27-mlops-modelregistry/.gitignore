@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.cache/
+artifacts/registry.db
+artifacts/object_store/
+*.joblib
+*.pkl
+models/

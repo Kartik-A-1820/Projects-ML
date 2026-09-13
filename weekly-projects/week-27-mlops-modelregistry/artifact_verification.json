@@ -1,0 +1,18 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "compile_errors": {},
+  "tests_exit": 0,
+  "tests_stdout": "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                     [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m4 passed\u001b[0m\u001b[32m in 2.08s\u001b[0m\u001b[0m",
+  "tests_stderr": "Spreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 772, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py\", line 37, in get_or_create_client\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py\", line 124, in start_daemon\nTimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.",
+  "smoke_exit": 0,
+  "smoke_stdout": "registered 1 {'accuracy': 0.9555555555555556} True\npromotion {'promoted': True, 'version': 1, 'reasons': []}\nregistered 2 {'accuracy': 0.9333333333333333} True\npromotion {'promoted': True, 'version': 2, 'reasons': []}\nchampion 2\nrollback {'champion': 1, 'rollback': 2}\naudit [('register', 1, '043cc360bb6b0537c09c77b202a4ced347c1f35ed1d248cecca1fa0782fe6a80'), ('alias', 1, 'champion'), ('alias', 1, 'candidate'), ('register', 2, '8c829b2261e3ca3fd2873f3fd828db26ad82992d5697dac641b79233fe79d993'), ('alias', 1, 'rollback'), ('alias', 2, 'champion'), ('alias', 2, 'candidate'), ('alias', 1, 'champion'), ('alias', 2, 'rollback')]",
+  "smoke_stderr": "Spreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 772, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py\", line 37, in get_or_create_client\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py\", line 124, in start_daemon\nTimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.",
+  "required_files_nonempty": true,
+  "missing_required": [],
+  "zip_integrity": true,
+  "zip_file_count": 16,
+  "zip_contains_required": true,
+  "zip_bytes": 11293,
+  "note": "pytest/smoke stderr may contain an unrelated artifact_tool spreadsheet-runtime warmup warning; project subprocesses exited 0."
+}

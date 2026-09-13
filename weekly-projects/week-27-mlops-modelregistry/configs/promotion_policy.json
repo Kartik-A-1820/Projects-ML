@@ -1,0 +1,10 @@
+{
+  "required_metrics": {
+    "accuracy": 0.80
+  },
+  "required_tags": {
+    "validation_status": "passed"
+  },
+  "require_signature": true,
+  "require_data_hash": true
+}

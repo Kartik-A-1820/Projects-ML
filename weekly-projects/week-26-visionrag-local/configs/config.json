@@ -1,0 +1,7 @@
+{
+  "base_k": 3,
+  "max_k": 7,
+  "abstain_confidence": 0.58,
+  "min_similarity": 0.72,
+  "metadata_weight": 0.12
+}

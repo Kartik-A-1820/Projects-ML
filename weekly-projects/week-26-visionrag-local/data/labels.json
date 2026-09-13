@@ -1,0 +1,8 @@
+{
+  "classes": ["normal", "scratch", "dent"],
+  "description": {
+    "normal": "uniform surface without localized defect",
+    "scratch": "thin high-contrast linear defect",
+    "dent": "localized circular or elliptical shading defect"
+  }
+}
