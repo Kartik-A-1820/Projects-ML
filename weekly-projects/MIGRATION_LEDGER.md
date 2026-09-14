@@ -31,8 +31,8 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 25 | MultiAgent-Researcher | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 26 | VisionRAG-Local | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 27 | MLOps-ModelRegistry | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 28 | EdgeVision-Analytics | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
-| 29 | DriftWatch-ML | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 28 | EdgeVision-Analytics | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
+| 29 | DriftWatch-ML | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 30 | PromptShield-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 31 | ContinualLearn-NLP | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 32 | DocLayout-RAG | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
