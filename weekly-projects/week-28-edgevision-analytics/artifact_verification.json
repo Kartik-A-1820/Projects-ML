@@ -1,0 +1,15 @@
+{
+  "source": "Rebuilt 2026",
+  "compile_ok": true,
+  "tests_exit": 0,
+  "tests_summary": "5 passed in 0.06s",
+  "smoke_exit": 0,
+  "smoke_summary": {"processed_frames":25,"total_frames":50,"precision":1.0,"recall":1.0,"f1":1.0,"mean_ms":0.213,"p95_ms":0.289},
+  "required_files_nonempty": true,
+  "missing_required": [],
+  "zip_integrity": true,
+  "zip_file_count": 20,
+  "zip_contains_required": true,
+  "zip_bytes": 12381,
+  "note": "Spreadsheet-runtime warmup warning was external; project pytest and smoke commands exited 0."
+}
