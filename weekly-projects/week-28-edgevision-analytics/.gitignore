@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.cache/
+models/
+artifacts/*.png
+artifacts/*.jsonl
+artifacts/*.onnx
+artifacts/*.xml
+artifacts/*.bin
