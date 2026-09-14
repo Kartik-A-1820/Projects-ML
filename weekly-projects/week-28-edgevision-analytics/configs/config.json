@@ -1,0 +1,8 @@
+{
+  "frame_stride": 2,
+  "quality": {"min_brightness": 0.15, "max_brightness": 0.92, "min_focus_score": 0.015},
+  "detector": {"tile_size": 64, "tile_stride": 64, "z_threshold": 3.5},
+  "events": {"min_consecutive_positive": 2, "max_gap": 1},
+  "escalation": {"uncertain_low": 0.45, "uncertain_high": 0.65},
+  "deployment": {"preferred_precision": "INT8", "preferred_runtime": "OpenVINO-or-ONNXRuntime", "target_p95_ms": 40}
+}
