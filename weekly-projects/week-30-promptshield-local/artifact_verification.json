@@ -1,0 +1,11 @@
+{
+  "source": "New 2026",
+  "compile_ok": true,
+  "tests_exit": 0,
+  "tests": "6 passed in 0.07s",
+  "smoke_exit": 0,
+  "smoke": "policy_accuracy=1.0; indirect injection blocked; path escape blocked; benign search allowed",
+  "zip_integrity": true,
+  "zip_files": 19,
+  "required_nonempty": true
+}
