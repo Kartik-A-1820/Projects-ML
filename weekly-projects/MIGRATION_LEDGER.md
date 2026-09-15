@@ -33,7 +33,7 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 27 | MLOps-ModelRegistry | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 28 | EdgeVision-Analytics | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 29 | DriftWatch-ML | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
-| 30 | PromptShield-Local | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 30 | PromptShield-Local | New 2026 | ✅ | ✅ | ✅ | ✅ |
 | 31 | ContinualLearn-NLP | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 32 | DocLayout-RAG | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 33 | MCPGuard Control Plane | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
