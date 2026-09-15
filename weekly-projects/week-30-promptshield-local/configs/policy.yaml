@@ -1,0 +1,23 @@
+default_deny: true
+max_tool_calls: 4
+allowed_tools:
+  search_docs:
+    risk: low
+    allowed_args: [query]
+  read_file:
+    risk: medium
+    allowed_args: [path]
+    path_prefixes: ["/workspace/docs/"]
+  send_email:
+    risk: high
+    allowed_args: [recipient, subject, body]
+    require_approval: true
+blocked_patterns:
+  - "ignore previous instructions"
+  - "reveal system prompt"
+  - "exfiltrate"
+  - "disable safety"
+sensitive_patterns:
+  - "api_key"
+  - "password"
+  - "secret"
