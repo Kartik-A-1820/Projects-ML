@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+dataset/*.csv
+dataset/*.parquet
+artifacts/*.png
+artifacts/*.csv
+*.pyc
