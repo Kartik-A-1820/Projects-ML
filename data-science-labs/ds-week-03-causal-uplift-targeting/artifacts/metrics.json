@@ -1,0 +1,8 @@
+{
+  "source_mode": "SYNTHETIC_SMOKE",
+  "n_rows": 12000,
+  "selected_model": "S",
+  "test_qini": 1.3738909208398695,
+  "bootstrap_qini_95": [-2.197563535130567, 5.622782452008901],
+  "test_ate": 0.012060778727445393
+}
