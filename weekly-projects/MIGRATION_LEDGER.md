@@ -34,7 +34,7 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 28 | EdgeVision-Analytics | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 29 | DriftWatch-ML | Rebuilt 2026 | ✅ | ✅ | ✅ | ✅ |
 | 30 | PromptShield-Local | New 2026 | ✅ | ✅ | ✅ | ✅ |
-| 31 | ContinualLearn-NLP | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+| 31 | ContinualLearn-NLP | New 2026 | ✅ | ✅ | ⚠ Upload connector file-reference mismatch; folder created | ✅ |
 | 32 | DocLayout-RAG | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 33 | MCPGuard Control Plane | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 34 | EvalForge AI | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
