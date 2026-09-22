@@ -1,0 +1,10 @@
+{
+  "compile_ok": true,
+  "tests_exit": 0,
+  "tests_output": "4 passed in 0.06s",
+  "smoke_exit": 0,
+  "smoke_note": "Deterministic toy stream reached 1.0 final average accuracy for both variants; corpus is intentionally a smoke fixture and is not evidence that replay is unnecessary.",
+  "required_nonempty": true,
+  "zip_integrity": true,
+  "zip_file_count": 19
+}
