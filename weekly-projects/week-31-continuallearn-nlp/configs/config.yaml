@@ -1,0 +1,8 @@
+seed: 42
+feature_dim: 2048
+replay_capacity: 120
+replay_per_task: 24
+replay_strategy: forgetting_priority
+regularization_lambda: 0.002
+epochs_per_task: 8
+learning_rate: 0.08
