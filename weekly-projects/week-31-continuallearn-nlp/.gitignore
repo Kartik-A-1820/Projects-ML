@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.cache/
+artifacts/state.json
+artifacts/*.joblib
+models/
+checkpoints/
