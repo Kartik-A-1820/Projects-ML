@@ -1,0 +1,1 @@
+{"source_mode":"SYNTHETIC_SMOKE","n_rows":10000,"cindex_12m":0.6488922718430915,"brier_12m":0.8783308862469514,"cindex_bootstrap_95":[0.6273063773847428,0.6725775463521398],"target_fraction":1.0}
