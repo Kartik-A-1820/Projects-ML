@@ -1,0 +1,121 @@
+{
+  "project": "DS Week 06",
+  "source": "SYNTHETIC_SMOKE",
+  "seed": 42,
+  "horizon_hours": 24,
+  "alpha": 0.1,
+  "heldout_stations": [
+    "S04",
+    "S05"
+  ],
+  "split_cuts": [
+    "2016-02-05 22:00:00",
+    "2016-05-25 07:00:00",
+    "2016-08-20 18:00:00"
+  ],
+  "rows": {
+    "train": 37940,
+    "val": 10290,
+    "cal": 8197,
+    "test": 18654
+  },
+  "features": [
+    "station",
+    "PM2.5",
+    "PM10",
+    "SO2",
+    "NO2",
+    "CO",
+    "O3",
+    "TEMP",
+    "PRES",
+    "DEWP",
+    "RAIN",
+    "WSPM",
+    "pm25_lag_1",
+    "pm25_lag_3",
+    "pm25_lag_24",
+    "pm25_lag_168",
+    "pm25_mean_6",
+    "pm25_mean_24",
+    "pm25_mean_168",
+    "pm25_std_24",
+    "pm25_delta_24",
+    "pm25_pm10_ratio",
+    "dewpoint_spread",
+    "ventilation_proxy",
+    "wind_sin",
+    "wind_cos",
+    "hour_sin",
+    "hour_cos",
+    "annual_sin",
+    "annual_cos",
+    "weekday",
+    "pm25_missing_now"
+  ],
+  "validation": {
+    "seasonal_naive": {
+      "MAE": 18.571617126464844,
+      "RMSE": 22.7475182154216,
+      "fit_eval_seconds": 0.0
+    },
+    "ridge": {
+      "MAE": 9.403237240862167,
+      "RMSE": 11.832089721627586,
+      "fit_eval_seconds": 0.09
+    },
+    "histgb": {
+      "MAE": 9.477188865388113,
+      "RMSE": 11.884333597564602,
+      "fit_eval_seconds": 0.65
+    }
+  },
+  "selected_point_model": "ridge",
+  "test_point": {
+    "seasonal_naive": {
+      "MAE": 18.46794891357422,
+      "RMSE": 22.659661650458975
+    },
+    "ridge": {
+      "MAE": 33.89173940396978,
+      "RMSE": 40.417545475140415
+    }
+  },
+  "test_intervals": {
+    "raw_quantiles": {
+      "n": 18654,
+      "coverage": 0.8552589256995818,
+      "width": 40.193212969500536,
+      "winkler": 57.80797635118508
+    },
+    "split_conformal": {
+      "n": 18654,
+      "coverage": 0.40640077195239627,
+      "width": 47.526409578041125,
+      "winkler": 331.91602739913236
+    },
+    "cqr": {
+      "n": 18654,
+      "coverage": 0.8802937707730245,
+      "width": 42.64890933450861,
+      "winkler": 57.000108961620846
+    },
+    "delayed_adaptive_cqr": {
+      "n": 18654,
+      "coverage": 0.9002894821486008,
+      "width": 45.770123926902784,
+      "winkler": 57.17262902152076
+    }
+  },
+  "online_feedback_audit": {
+    "feedback_updates": 18511,
+    "min_feedback_delay_hours": 24.0,
+    "final_alpha": 0.08829999999992459
+  },
+  "high_pm25_threshold_train_p90": 93.7079246520996,
+  "weekly_block_bootstrap_improvement_ci95": [
+    -16.003505599624518,
+    -15.119334627038217
+  ],
+  "interpretation": "SYNTHETIC scores are only a smoke test"
+}

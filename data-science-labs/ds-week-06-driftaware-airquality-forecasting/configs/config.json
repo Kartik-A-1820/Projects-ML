@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "horizon_hours": 24,
+  "alpha": 0.1,
+  "heldout_stations": 2,
+  "synthetic_stations": 6,
+  "synthetic_start": "2015-01-01",
+  "synthetic_end": "2016-12-31",
+  "split_fractions": [
+    0.55,
+    0.15,
+    0.12,
+    0.18
+  ],
+  "rolling_calibration_max": 3000,
+  "adaptive_eta": 0.003,
+  "boosting_iterations": 90,
+  "fast_mode_iterations": 35
+}

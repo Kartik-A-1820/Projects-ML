@@ -1,0 +1,10 @@
+dataset/raw/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.env
+*.pyc
+*.pkl
+*.joblib
+*.zip

@@ -1,0 +1,65 @@
+{
+  "series": "Saturday Data Science Weekly Labs",
+  "next_week": 7,
+  "projects": [
+    {
+      "week": 1,
+      "title": "Calibrated Credit Risk Under Shift",
+      "domain": "fintech",
+      "methods": [
+        "calibration",
+        "distribution shift"
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Uncertainty-Aware Turbofan RUL Prognostics",
+      "domain": "manufacturing",
+      "methods": [
+        "RUL",
+        "uncertainty"
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Causal Uplift Modeling for Incremental Marketing Targeting",
+      "domain": "marketing",
+      "methods": [
+        "uplift",
+        "causal inference"
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Censor-Aware Telecom Survival & Retention Economics",
+      "domain": "telecom",
+      "methods": [
+        "survival",
+        "censoring"
+      ]
+    },
+    {
+      "week": 5,
+      "title": "Long-Tail Sequential Recommendation Under Exposure Bias",
+      "domain": "retail/media",
+      "methods": [
+        "ranking",
+        "sequential recommendation",
+        "long-tail",
+        "implicit feedback"
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Drift-Aware Multi-Station PM2.5 Forecasting with Delayed-Feedback Conformal Intervals",
+      "domain": "climate/environment",
+      "methods": [
+        "temporal forecasting",
+        "conformalized quantile regression",
+        "delayed-feedback adaptive conformal",
+        "spatial transfer",
+        "uncertainty"
+      ]
+    }
+  ]
+}
