@@ -1,0 +1,177 @@
+{
+  "run_mode": "SYNTHETIC_SMOKE",
+  "seed": 20261024,
+  "rows": 2000,
+  "cleaning": {
+    "conflicting_urls_removed": 0,
+    "clean_rows": 2000,
+    "unique_groups": 500
+  },
+  "split_summary": [
+    {
+      "partition": "train",
+      "n": 1196,
+      "groups": 299,
+      "phishing_rate": 0.4280936454849498
+    },
+    {
+      "partition": "validation",
+      "n": 300,
+      "groups": 75,
+      "phishing_rate": 0.4266666666666667
+    },
+    {
+      "partition": "calibration",
+      "n": 204,
+      "groups": 51,
+      "phishing_rate": 0.45098039215686275
+    },
+    {
+      "partition": "test",
+      "n": 300,
+      "groups": 75,
+      "phishing_rate": 0.44
+    }
+  ],
+  "model_selection": "classical validation PR-AUC",
+  "selected_model": "logistic",
+  "validation_comparison": [
+    {
+      "model": "logistic",
+      "validation_pr_auc": 0.7559974751075957,
+      "fit_seconds": 0.027
+    },
+    {
+      "model": "hist_gbdt",
+      "validation_pr_auc": 0.6675921720473298,
+      "fit_seconds": 0.265
+    },
+    {
+      "model": "extra_trees",
+      "validation_pr_auc": 0.6644207231272258,
+      "fit_seconds": 0.318
+    },
+    {
+      "model": "tabm_lite_research_challenger",
+      "validation_pr_auc": 0.6667414572981604,
+      "fit_seconds": null
+    }
+  ],
+  "neural_research_adaptation": {
+    "device": "cpu",
+    "best_validation_pr_auc": 0.6667414572981604,
+    "epochs_ran": 8,
+    "ensemble_members": 4,
+    "status": "completed",
+    "validation_pr_auc": 0.6667414572981604
+  },
+  "test_metrics": {
+    "n": 300,
+    "prevalence": 0.44,
+    "pr_auc": 0.7255431214840842,
+    "roc_auc": 0.7582070707070708,
+    "brier": 0.1958479451978777,
+    "log_loss": 0.5804433482492165,
+    "precision": 0.4406779661016949,
+    "recall": 0.9848484848484849,
+    "f1": 0.6088992974238876,
+    "false_positives": 165,
+    "false_negatives": 2,
+    "cost_per_url": 2.9166666666666665,
+    "domain_bootstrap_pr_auc_95pct_ci": [
+      0.6202673353650247,
+      0.8224109415082373
+    ]
+  },
+  "robustness": {
+    "mean_abs_probability_shift": 0.21909530183476733,
+    "p95_abs_probability_shift": 0.3116868659945396,
+    "decision_flip_rate": 0.46
+  },
+  "slice_metrics": [
+    {
+      "slice": "short_url",
+      "n": 177,
+      "prevalence": 0.3615819209039548,
+      "pr_auc": 0.6637589199574481,
+      "roc_auc": 0.7108683628318585,
+      "brier": 0.1958661417890222,
+      "log_loss": 0.5810478327550768,
+      "precision": 0.3583815028901734,
+      "recall": 0.96875,
+      "f1": 0.5232067510548524,
+      "false_positives": 111,
+      "false_negatives": 2,
+      "cost_per_url": 3.4180790960451977
+    },
+    {
+      "slice": "long_url",
+      "n": 123,
+      "prevalence": 0.5528455284552846,
+      "pr_auc": 0.7877650045891458,
+      "roc_auc": 0.7705882352941176,
+      "brier": 0.19582175985940142,
+      "log_loss": 0.5795734803017594,
+      "precision": 0.5573770491803278,
+      "recall": 1.0,
+      "f1": 0.7157894736842105,
+      "false_positives": 54,
+      "false_negatives": 0,
+      "cost_per_url": 2.1951219512195124
+    },
+    {
+      "slice": "https",
+      "n": 219,
+      "prevalence": 0.3835616438356164,
+      "pr_auc": 0.5833288645008949,
+      "roc_auc": 0.6921516754850088,
+      "brier": 0.20893520411534802,
+      "log_loss": 0.6094149642698916,
+      "precision": 0.38317757009345793,
+      "recall": 0.9761904761904762,
+      "f1": 0.5503355704697986,
+      "false_positives": 132,
+      "false_negatives": 2,
+      "cost_per_url": 3.2420091324200913
+    },
+    {
+      "slice": "non_https",
+      "n": 81,
+      "prevalence": 0.5925925925925926,
+      "pr_auc": 0.9116056984784603,
+      "roc_auc": 0.8453282828282829,
+      "brier": 0.16046387479138377,
+      "log_loss": 0.5021126827118364,
+      "precision": 0.5925925925925926,
+      "recall": 1.0,
+      "f1": 0.7441860465116279,
+      "false_positives": 33,
+      "false_negatives": 0,
+      "cost_per_url": 2.037037037037037
+    }
+  ],
+  "cost_sensitivity": [
+    {
+      "FN_cost": 10.0,
+      "threshold": 0.3333333333333333,
+      "cost_per_url": 2.05
+    },
+    {
+      "FN_cost": 25.0,
+      "threshold": 0.16666666666666666,
+      "cost_per_url": 2.9166666666666665
+    },
+    {
+      "FN_cost": 50.0,
+      "threshold": 0.09090909090909091,
+      "cost_per_url": 2.8
+    },
+    {
+      "FN_cost": 100.0,
+      "threshold": 0.047619047619047616,
+      "cost_per_url": 2.8
+    }
+  ],
+  "research_claim_boundary": "This is a BatchEnsemble-inspired adaptation, not official TabM.",
+  "real_dataset_executed": false
+}

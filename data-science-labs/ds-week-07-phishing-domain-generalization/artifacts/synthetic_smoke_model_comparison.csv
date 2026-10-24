@@ -1,0 +1,5 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: synthetic_smoke_model_comparison.csv>index,model,validation_pr_auc,fit_seconds
+0,logistic,0.7559974751075957,0.027
+1,hist_gbdt,0.6675921720473298,0.265
+2,extra_trees,0.6644207231272258,0.318

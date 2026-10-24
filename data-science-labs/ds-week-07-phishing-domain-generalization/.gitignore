@@ -1,8 +1,12 @@
-data/*.csv
-data/*.zip
-artifacts/*.png
-artifacts/*.json
-.ipynb_checkpoints/
 __pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
 .venv/
 .env
+*.pyc
+data/*.csv
+data/*.zip
+*.joblib
+*.pt
+*.pth
+artifacts/local_*

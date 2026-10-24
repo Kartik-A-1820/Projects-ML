@@ -1,0 +1,12 @@
+numpy>=1.26,<3
+pandas>=2.0,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+matplotlib>=3.7,<4
+nbformat>=5.9,<6
+nbclient>=0.9,<1
+ipykernel>=6.28,<8
+jupyterlab>=4,<5
+pytest>=8,<10
+# Optional neural research adaptation (CPU fallback):
+# torch>=2.2,<3

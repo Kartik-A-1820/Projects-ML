@@ -1,0 +1,31 @@
+{
+  "week": "DS-07",
+  "date": "2026-10-24",
+  "project": "Phishing Detection Under Unseen-Domain Shift",
+  "notebook_json_valid": true,
+  "notebook_sections_checked": [
+    "business framing",
+    "data provenance",
+    "leakage",
+    "eda",
+    "feature engineering",
+    "validation",
+    "baselines",
+    "research adaptation",
+    "calibration",
+    "uncertainty",
+    "error/slice",
+    "robustness",
+    "conclusions"
+  ],
+  "python_syntax": "passed",
+  "pytest": "5 passed",
+  "notebook_execution": "executed end-to-end 19.02s on synthetic smoke data (prior to output pruning)",
+  "real_dataset_execution": "NOT RUN: UCI dataset unavailable in isolated workspace; direct download failed",
+  "synthetic_data_rows": 2000,
+  "neural_challenger": "completed",
+  "test_pr_auc_synthetic_only": 0.7255431214840842,
+  "test_roc_auc_synthetic_only": 0.7582070707070708,
+  "tracking_query_decision_flip_rate_synthetic_only": 0.46,
+  "limitations": "No external dataset, no temporal validation, no real phishing performance claim."
+}

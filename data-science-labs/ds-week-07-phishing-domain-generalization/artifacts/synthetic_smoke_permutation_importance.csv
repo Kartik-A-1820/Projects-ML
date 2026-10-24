@@ -1,0 +1,22 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: synthetic_smoke_permutation_importance.csv>index,Unnamed: 0,validation_AP_drop
+0,suspicious_count,0.2980877270057138
+1,host_length,0.1600087640470238
+2,max_token_length,0.1168523280950752
+3,subdomain_count,0.1106386811977359
+4,is_https,0.060452491246179
+5,path_length,0.0318451862194
+6,url_length,0.0286378787262252
+7,param_count,0.0182414771875702
+8,digit_ratio,0.0103983344035023
+9,special_ratio,0.0102848111495997
+10,url_entropy,0.0048884461874044
+11,query_length,0.0021669397486184
+12,is_ip,0.0
+13,hyphens,0.0
+14,path_depth,0.0
+15,host_digits,0.0
+16,punycode,0.0
+17,has_at,0.0
+18,encoded_chars,0.0
+19,host_entropy,-0.0071016444906707
