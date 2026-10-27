@@ -1,0 +1,4 @@
+# Core engine uses Python standard library only.
+fastapi>=0.110,<1
+uvicorn>=0.29,<1
+pytest>=8,<10

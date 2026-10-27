@@ -1,0 +1,24 @@
+{
+  "week": 37,
+  "project": "ContractTrace Agent Transactions",
+  "date": "2026-10-27",
+  "tests": ".............                                                            [100%]\n13 passed in 0.36s",
+  "syntax": "passed",
+  "smoke": "passed",
+  "scenario_pass_rate": 1.0,
+  "concurrency": {
+    "requests": 30,
+    "workers": 8,
+    "accepted": 10,
+    "rejected": 20,
+    "seconds": 0.2391,
+    "throughput_rps": 125.49,
+    "verified": true
+  },
+  "zip_bytes": 22562,
+  "file_count": 19,
+  "github": "pending",
+  "drive": "pending",
+  "library": "pending",
+  "zip_hash_note": "Compute SHA-256 on the delivered ZIP; cannot embed its own hash without changing the ZIP."
+}

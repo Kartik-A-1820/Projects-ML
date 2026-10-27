@@ -1,0 +1,12 @@
+name: contracttrace-tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r weekly-projects/week-37-contracttrace-agent-transactions/requirements.txt
+      - run: PYTHONPATH=weekly-projects/week-37-contracttrace-agent-transactions/src pytest -q weekly-projects/week-37-contracttrace-agent-transactions/tests

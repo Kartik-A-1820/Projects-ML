@@ -1,0 +1,4 @@
+{"request_id":"r1","tenant":"demo","actor":"alice","action":"reserve","order_id":"O1","sku":"PART-A","quantity":4,"expected":"committed"}
+{"request_id":"r2","tenant":"demo","actor":"bob","action":"ship","order_id":"O1","sku":"PART-A","quantity":4,"expected":"committed"}
+{"request_id":"r3","tenant":"demo","actor":"alice","action":"reserve","order_id":"O2","sku":"PART-A","quantity":999,"expected":"rejected"}
+{"request_id":"r4","tenant":"demo","actor":"guest","action":"reserve","order_id":"O3","sku":"PART-A","quantity":1,"expected":"rejected"}

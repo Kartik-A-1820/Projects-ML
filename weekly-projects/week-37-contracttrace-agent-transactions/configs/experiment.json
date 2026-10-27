@@ -1,0 +1,1 @@
+{"seed": 37, "workers": 8, "concurrent_requests": 30, "initial_stock": 10, "reliability_scenarios": 9, "model": "deterministic planner; optional local llama.cpp proposal", "note": "The scenarios are synthetic and use no external services"}

@@ -1,0 +1,105 @@
+{
+  "scenario": {
+    "traces": [
+      {
+        "action": "reserve",
+        "fault": null,
+        "status": "committed",
+        "latency_ms": 2.2375750000378503
+      },
+      {
+        "action": "reserve",
+        "fault": null,
+        "status": "committed",
+        "latency_ms": 0.26415199999973993
+      },
+      {
+        "action": "ship",
+        "fault": null,
+        "status": "committed",
+        "latency_ms": 1.5253000000257089
+      },
+      {
+        "action": "reserve",
+        "fault": null,
+        "status": "rejected",
+        "latency_ms": 1.3753079999787587
+      },
+      {
+        "action": "reserve",
+        "fault": null,
+        "status": "rejected",
+        "latency_ms": 1.7558520000306999
+      },
+      {
+        "action": "reserve",
+        "fault": "before_commit",
+        "status": "transport_error",
+        "latency_ms": 0.4647389999945517
+      },
+      {
+        "action": "reserve",
+        "fault": null,
+        "status": "committed",
+        "latency_ms": 1.5253809999649093
+      },
+      {
+        "action": "reserve",
+        "fault": "after_commit",
+        "status": "transport_error",
+        "latency_ms": 1.7684510000322007
+      },
+      {
+        "action": "reserve",
+        "fault": null,
+        "status": "committed",
+        "latency_ms": 0.20461299999396942
+      }
+    ],
+    "final_snapshot": {
+      "inventory": [
+        {
+          "sku": "PART-A",
+          "available": 4,
+          "reserved": 4
+        }
+      ],
+      "orders": [
+        {
+          "order_id": "O1",
+          "sku": "PART-A",
+          "quantity": 4,
+          "status": "shipped"
+        },
+        {
+          "order_id": "O2",
+          "sku": "PART-A",
+          "quantity": 2,
+          "status": "reserved"
+        },
+        {
+          "order_id": "O3",
+          "sku": "PART-A",
+          "quantity": 2,
+          "status": "reserved"
+        }
+      ]
+    },
+    "verification": {
+      "ok": true,
+      "events": 6,
+      "tip": "f40e78f0108923944ed63d59a1aba0c9f75e3ca08ecf6548854f9e28853f1e47"
+    },
+    "scenario_pass_rate": 1.0,
+    "note": "Deterministic fixture checks; not an LLM task-success estimate."
+  },
+  "concurrency": {
+    "requests": 30,
+    "workers": 8,
+    "accepted": 10,
+    "rejected": 20,
+    "seconds": 0.2391,
+    "throughput_rps": 125.49,
+    "verified": true
+  }
+}
