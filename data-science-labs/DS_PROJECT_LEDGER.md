@@ -8,3 +8,18 @@
 
 ## Rotation guard
 Future weeks must avoid substantially repeating credit-default tabular classification, turbofan RUL prognostics, or marketing uplift/CATE targeting. Rotate domain, modality, validation design, statistical method and research theme. Priority areas include survival with censoring, anomaly/fraud detection, recommender/ranking, healthcare, cybersecurity, graph ML, multimodal data, NLP, robust evaluation and representation learning.
+
+## Current source reconciliation — 27 October 2026
+
+The table above preserves historical verification and external-destination
+claims. This maintenance pass did not revalidate Drive/Library or rerun all labs.
+
+| DS Week | Current repository state | Verification in this pass |
+| --- | --- | --- |
+| 04 | Censor-aware telco survival source present | Inventory only |
+| 05 | Long-tail recommender reconstructed implementation present | 5 tests and new synthetic smoke passed; MovieLens pending |
+| 06 | Air-quality forecasting named in registry, folder absent | Not recovered |
+| 07 | Phishing domain-generalization source present | Inventory only; project documents prior synthetic smoke |
+
+Use [DS_PROJECT_REGISTRY.md](DS_PROJECT_REGISTRY.md) for current numbering and
+[PORTFOLIO_STATUS.md](../PORTFOLIO_STATUS.md) for migration gaps.
