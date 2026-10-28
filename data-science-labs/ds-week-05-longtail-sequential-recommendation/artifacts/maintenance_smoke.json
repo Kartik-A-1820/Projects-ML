@@ -1,0 +1,118 @@
+{
+  "source": "SYNTHETIC_SMOKE_RECONSTRUCTION",
+  "seed": 42,
+  "k": 10,
+  "epochs": 3,
+  "tail_bonus": 0.5,
+  "users": 100,
+  "train_catalog": 100,
+  "train_events": 1800,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "validation": {
+    "popularity": {
+      "recall": 0.36,
+      "ndcg": 0.19434765757789868,
+      "mrr": 0.14357936507936508,
+      "coverage": 0.25,
+      "tail_exposure": 0.025,
+      "ndcg_ci95": [
+        0.13987161271695278,
+        0.25523640005126597
+      ],
+      "cold_targets": 0
+    },
+    "markov": {
+      "recall": 0.19,
+      "ndcg": 0.09989509212268938,
+      "mrr": 0.07323015873015874,
+      "coverage": 0.97,
+      "tail_exposure": 0.469,
+      "ndcg_ci95": [
+        0.05533849545701381,
+        0.14302271523784696
+      ],
+      "cold_targets": 0
+    },
+    "bpr": {
+      "recall": 0.12,
+      "ndcg": 0.04536922664071058,
+      "mrr": 0.023718253968253968,
+      "coverage": 0.99,
+      "tail_exposure": 0.856,
+      "ndcg_ci95": [
+        0.021661850427727673,
+        0.07348514033642935
+      ],
+      "cold_targets": 0
+    },
+    "bpr_tail": {
+      "recall": 0.08,
+      "ndcg": 0.03335338366866564,
+      "mrr": 0.019305555555555555,
+      "coverage": 0.95,
+      "tail_exposure": 0.944,
+      "ndcg_ci95": [
+        0.012474246260211675,
+        0.061285119629203404
+      ],
+      "cold_targets": 0
+    }
+  },
+  "test": {
+    "popularity": {
+      "recall": 0.29,
+      "ndcg": 0.1625947139742293,
+      "mrr": 0.12353968253968253,
+      "coverage": 0.26,
+      "tail_exposure": 0.034,
+      "ndcg_ci95": [
+        0.11133464910338155,
+        0.22568350480658908
+      ],
+      "cold_targets": 0
+    },
+    "markov": {
+      "recall": 0.27,
+      "ndcg": 0.14952114581630896,
+      "mrr": 0.11384126984126984,
+      "coverage": 0.96,
+      "tail_exposure": 0.458,
+      "ndcg_ci95": [
+        0.10293962422360158,
+        0.2178423345966199
+      ],
+      "cold_targets": 0
+    },
+    "bpr": {
+      "recall": 0.14,
+      "ndcg": 0.05567604046530844,
+      "mrr": 0.03060714285714286,
+      "coverage": 0.99,
+      "tail_exposure": 0.859,
+      "ndcg_ci95": [
+        0.029990176485245573,
+        0.08404363494040504
+      ],
+      "cold_targets": 0
+    },
+    "bpr_tail": {
+      "recall": 0.14,
+      "ndcg": 0.05412325638843237,
+      "mrr": 0.029095238095238094,
+      "coverage": 0.95,
+      "tail_exposure": 0.944,
+      "ndcg_ci95": [
+        0.031114121139527964,
+        0.07829466743406202
+      ],
+      "cold_targets": 0
+    }
+  },
+  "limitations": [
+    "Synthetic runs verify code only, not MovieLens quality.",
+    "Per-user chronology is not a globally time-censored deployment simulation.",
+    "Unseen held-out targets remain misses; training catalog uses no held-out items.",
+    "Tail exposure is descriptive, not a causal exposure-bias correction."
+  ]
+}

@@ -1,5 +1,9 @@
 # Weekly AI/ML Portfolio Migration Ledger
 
+> Historical migration record. Checkmarks below record earlier reported checks,
+> not a fresh runtime or external-destination verification. Current source
+> inventory and identity conflicts: [PORTFOLIO_STATUS.md](../PORTFOLIO_STATUS.md).
+
 Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests/artifact checks succeeded. External destinations are only marked complete after read-back/verification. `⚠ Tool unavailable` means the artifact is ready but this automation runtime cannot complete that Library persistence path; do not rebuild the project solely for that status.
 
 | Week | Project | Source | Verified | GitHub | Drive | Library |
@@ -38,3 +42,18 @@ Legend: `Source` = Recovered or Rebuilt/New. `Verified` means local syntax/tests
 | 32 | DocLayout-RAG | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 33 | MCPGuard Control Plane | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
 | 34 | EvalForge AI | Pending | ⏳ | ⏳ | ⏳ | ⏳ |
+
+## Source reconciliation — 27 October 2026
+
+| Week | Current GitHub source inventory | Reconciliation |
+| --- | --- | --- |
+| 01–31 | Present | Historical verification retained; not all runtimes rerun |
+| 32 | Absent | DocLayout-RAG remains pending |
+| 33 | StreamVoice-Edge folder contains only requirements.txt | Incomplete scaffold; historical MCPGuard title conflicts and needs original-artifact reconciliation |
+| 34 | Absent | EvalForge AI remains pending |
+| 35 | Absent | SpecPilot is recorded elsewhere as a local artifact; not recovered here |
+| 36 | Absent | EraseProof is recorded elsewhere as a local artifact; not recovered here |
+| 37 | Present | ContractTrace source exists; its tests were not rerun in this maintenance pass |
+
+GitHub presence does not confirm Drive/Library persistence or model-quality
+validation. Preserve week identities until the missing originals are reconciled.

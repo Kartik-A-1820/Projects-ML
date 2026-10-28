@@ -1,1 +1,28 @@
-{"series":"Saturday Data Science Weekly Labs","next_week":6,"projects":[{"week":1,"title":"Calibrated Credit Risk Under Shift"},{"week":2,"title":"Uncertainty-Aware Turbofan RUL Prognostics"},{"week":3,"title":"Causal Uplift Modeling for Incremental Marketing Targeting"},{"week":4,"title":"Censor-Aware Telecom Survival & Retention Economics"},{"week":5,"title":"Long-Tail Sequential Recommendation Under Exposure Bias"}]}
+{
+  "series": "Saturday Data Science Weekly Labs",
+  "next_week": 8,
+  "projects": [
+    {
+      "week": 1,
+      "title": "Calibrated Credit Risk Under Shift"
+    },
+    {
+      "week": 2,
+      "title": "Uncertainty-Aware Turbofan RUL Prognostics"
+    },
+    {
+      "week": 3,
+      "title": "Causal Uplift Modeling for Incremental Marketing Targeting"
+    },
+    {
+      "week": 4,
+      "title": "Censor-Aware Telecom Survival & Retention Economics"
+    },
+    {
+      "week": 5,
+      "title": "Long-Tail Sequential Recommendation Under Exposure Bias"
+    }
+  ],
+  "canonical_registry": "../DS_PROJECT_REGISTRY.md",
+  "snapshot_note": "Maintenance snapshot 2026-10-27; DS Week 06 source absent, Week 07 present. Original weeks retained; see canonical registry for full history."
+}
