@@ -10,6 +10,7 @@ class Recommenders:
         self.item_index = {item:i for i,item in enumerate(self.items)}
         self.user_index = {user:i for i,user in enumerate(self.users)}
         self.counts = Counter(item for history in histories.values() for item in history)
+        self.popularity_denominator = 1 + sum(self.counts.values())
         self.transitions = defaultdict(Counter)
         for history in histories.values():
             for previous, following in zip(history, history[1:]):
@@ -51,7 +52,7 @@ class Recommenders:
         elif method=='markov':
             transitions=self.transitions[context[-1]] if context else {}
             # Train-only popularity breaks transition ties deterministically.
-            scores={item:float(transitions.get(item,0)) + self.counts[item]/(1+sum(self.counts.values())) for item in candidates}
+            scores={item:float(transitions.get(item,0)) + self.counts[item]/self.popularity_denominator for item in candidates}
         elif method in ('bpr','bpr_tail'):
             values=self.item_factors@self.user_factors[self.user_index[user]]
             scores={item:float(values[self.item_index[item]]) for item in candidates}
