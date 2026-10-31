@@ -12,5 +12,7 @@ This registry is **separate** from Tuesday engineering projects. The canonical s
 | 06 | Climate | Drift-Aware Air-Quality Forecasting | time series, drift | Historical registry entry; source folder absent in 2026-10-27 inventory |
 | 07 | Cybersecurity | Phishing Detection Under Unseen-Domain Shift | URL-only tabular ML, domain holdout, calibration, BatchEnsemble-inspired adaptation | **Verified synthetic smoke; real UCI pending** |
 
-Next: Week 08 (not a phishing-domain or credit-risk duplicate). Candidate rotations: medical NLP weak supervision, graph fraud, satellite multimodal anomaly, scientific representation learning.
+| 08 | Wearable / Digital health | SubjectShift: Label-Efficient Wearable Recognition | unseen-subject evaluation, IMU features, masked SSL, calibration, selective prediction | **Notebook executed on synthetic smoke; real UCI pending** |
+
+Next: Week 09 (avoid duplicating prior domains/methods). Candidate rotations: medical NLP weak supervision, graph fraud, satellite multimodal anomaly, scientific representation learning.
 Inventory note: other Existing/Verified entries retain historical status and were not all rerun in this maintenance pass. See [source coverage](../PORTFOLIO_STATUS.md).
