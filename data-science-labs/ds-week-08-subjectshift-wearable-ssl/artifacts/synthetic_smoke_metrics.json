@@ -1,0 +1,251 @@
+{
+  "dataset_mode": "synthetic_smoke_NOT_REAL",
+  "seed": 20261031,
+  "hardware_device": "cpu",
+  "fast_mode": true,
+  "quality": {
+    "missing_cells": 0,
+    "nonfinite_cells": 0,
+    "duplicate_window_count": 0,
+    "n_subjects": 24,
+    "n_windows": 864
+  },
+  "split_audit": [
+    {
+      "partition": "train",
+      "windows": 324,
+      "subjects": 9,
+      "classes": 6
+    },
+    {
+      "partition": "validation",
+      "windows": 144,
+      "subjects": 4,
+      "classes": 6
+    },
+    {
+      "partition": "calibration",
+      "windows": 180,
+      "subjects": 5,
+      "classes": 6
+    },
+    {
+      "partition": "test",
+      "windows": 216,
+      "subjects": 6,
+      "classes": 6
+    }
+  ],
+  "validation_10pct": [
+    {
+      "model": "extra_trees_10pct",
+      "n": 144,
+      "accuracy": 0.8472222222222222,
+      "balanced_accuracy": 0.8472222222222223,
+      "macro_f1": 0.838703902613677,
+      "nll": 0.4244875246539588,
+      "ece": 0.11997813786008237
+    },
+    {
+      "model": "logistic_10pct",
+      "n": 144,
+      "accuracy": 0.7777777777777778,
+      "balanced_accuracy": 0.7777777777777778,
+      "macro_f1": 0.7712093079874692,
+      "nll": 0.8259732927919693,
+      "ece": 0.08493010915968689
+    },
+    {
+      "model": "ssl_masked_10pct",
+      "n": 144,
+      "accuracy": 0.7013888888888888,
+      "balanced_accuracy": 0.701388888888889,
+      "macro_f1": 0.6892233520140496,
+      "nll": 1.3756447684836521,
+      "ece": 0.20657263099888465
+    },
+    {
+      "model": "random_encoder_10pct",
+      "n": 144,
+      "accuracy": 0.6527777777777778,
+      "balanced_accuracy": 0.6527777777777778,
+      "macro_f1": 0.6445657518405843,
+      "nll": 1.2916221943851727,
+      "ece": 0.10119792243689321
+    }
+  ],
+  "validation_100pct": [
+    {
+      "model": "majority_100pct",
+      "n": 144,
+      "accuracy": 0.16666666666666666,
+      "balanced_accuracy": 0.16666666666666666,
+      "macro_f1": 0.047619047619047616,
+      "nll": 30.03637782426429,
+      "ece": 0.8333333333333334
+    },
+    {
+      "model": "logistic_100pct",
+      "n": 144,
+      "accuracy": 0.9375,
+      "balanced_accuracy": 0.9375,
+      "macro_f1": 0.936868965285775,
+      "nll": 0.14382106575916545,
+      "ece": 0.05811607632518624
+    },
+    {
+      "model": "extra_trees_100pct",
+      "n": 144,
+      "accuracy": 0.9375,
+      "balanced_accuracy": 0.9375,
+      "macro_f1": 0.9361156573922531,
+      "nll": 0.21480607114078296,
+      "ece": 0.0778420781893003
+    },
+    {
+      "model": "hist_gbdt_100pct",
+      "n": 144,
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9154782799473452,
+      "nll": 0.1837576313118707,
+      "ece": 0.03350030363833271
+    },
+    {
+      "model": "ssl_masked_100pct",
+      "n": 144,
+      "accuracy": 0.7430555555555556,
+      "balanced_accuracy": 0.7430555555555557,
+      "macro_f1": 0.7296296296296297,
+      "nll": 0.6345154322979419,
+      "ece": 0.16737239515710217
+    }
+  ],
+  "test_primary": {
+    "n": 216,
+    "accuracy": 0.8518518518518519,
+    "balanced_accuracy": 0.8518518518518517,
+    "macro_f1": 0.8491228070175438,
+    "nll": 0.34928362206970975,
+    "ece": 0.0392343368686887,
+    "subject_bootstrap_macro_f1_95ci": [
+      0.8036180069930069,
+      0.8672142663748834
+    ],
+    "temperature": 0.5919838705715346,
+    "model": "extra_trees_10pct",
+    "dataset_mode": "synthetic_smoke_NOT_REAL"
+  },
+  "calibration_costs": [
+    {
+      "threshold": 0.6,
+      "coverage": 0.8444444444444444,
+      "accepted_errors": 20,
+      "manual_reviews": 28,
+      "cost_per_window": 1.2666666666666666
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.7555555555555555,
+      "accepted_errors": 15,
+      "manual_reviews": 44,
+      "cost_per_window": 1.0777777777777777
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.6388888888888888,
+      "accepted_errors": 8,
+      "manual_reviews": 65,
+      "cost_per_window": 0.8055555555555556
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.48333333333333334,
+      "accepted_errors": 2,
+      "manual_reviews": 93,
+      "cost_per_window": 0.6277777777777778
+    }
+  ],
+  "test_selective": {
+    "coverage": 0.5324074074074074,
+    "accepted_errors": 5,
+    "manual_reviews": 101,
+    "cost_per_window": 0.6990740740740741
+  },
+  "robustness": [
+    {
+      "condition": "clean",
+      "n": 216,
+      "accuracy": 0.8518518518518519,
+      "balanced_accuracy": 0.8518518518518517,
+      "macro_f1": 0.8491228070175438,
+      "nll": 0.42254895426646777,
+      "ece": 0.11109310699588473
+    },
+    {
+      "condition": "rotation",
+      "n": 216,
+      "accuracy": 0.8425925925925926,
+      "balanced_accuracy": 0.8425925925925926,
+      "macro_f1": 0.8380625725900116,
+      "nll": 0.4451262300884964,
+      "ece": 0.11801183127572017
+    },
+    {
+      "condition": "noise",
+      "n": 216,
+      "accuracy": 0.7638888888888888,
+      "balanced_accuracy": 0.7638888888888888,
+      "macro_f1": 0.7606364934589602,
+      "nll": 0.6583418870110618,
+      "ece": 0.14401577503429355
+    },
+    {
+      "condition": "gyro_dropout",
+      "n": 216,
+      "accuracy": 0.8194444444444444,
+      "balanced_accuracy": 0.8194444444444445,
+      "macro_f1": 0.8067614323941982,
+      "nll": 0.793694143866357,
+      "ece": 0.30980795610425244
+    }
+  ],
+  "subject_slices": [
+    {
+      "subject": 18,
+      "n": 36,
+      "macro_f1": 0.7626262626262625
+    },
+    {
+      "subject": 19,
+      "n": 36,
+      "macro_f1": 0.875
+    },
+    {
+      "subject": 20,
+      "n": 36,
+      "macro_f1": 0.8524955436720143
+    },
+    {
+      "subject": 21,
+      "n": 36,
+      "macro_f1": 0.7777777777777778
+    },
+    {
+      "subject": 22,
+      "n": 36,
+      "macro_f1": 0.875
+    },
+    {
+      "subject": 23,
+      "n": 36,
+      "macro_f1": 0.7777777777777777
+    }
+  ],
+  "ssl_losses": [
+    0.27460862199465436,
+    0.16382906834284464
+  ],
+  "ssl_seconds": 1.08,
+  "limitations": "Synthetic metrics are smoke only"
+}
