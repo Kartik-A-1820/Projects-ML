@@ -1,0 +1,14 @@
+data/*
+!data/.gitkeep
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.env
+*.pyc
+*.pt
+*.pth
+*.pkl
+*.joblib
+artifacts/*.npy
+artifacts/*.npz
